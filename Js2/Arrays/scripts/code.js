@@ -1,4 +1,4 @@
-const array = ['Joe', 'Jos', 'Johanna', 'Joeri', 'julie'];
+
 
 const voegNaamToe = () => {
     const naam = prompt("Voer een familienaam in", "");
@@ -9,6 +9,7 @@ const voegNaamToe = () => {
 }
 const setup = () => {
 // deze code wordt pas uitgevoerd als de pagina volledig is ingeladen
+    const array = ['Joe', 'Jos', 'Johanna', 'Joeri', 'julie'];
 console.log(array.length);
 console.log(array[0], array[2], array[4]);
 voegNaamToe();

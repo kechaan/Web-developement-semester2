@@ -1,0 +1,23 @@
+section {
+    padding: 15px;
+    display: inline-block;
+    align-items: center;
+    border: gray solid 3px;
+    border-radius: 5px;
+    width: 350px;
+}
+#swatch {
+    position: center;
+    height: 70px;
+    width: 70px;
+    float: right;
+    background-color: black;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+.naamSlider{
+    margin-left: 10px;
+}
+
+
+
