@@ -1,11 +1,11 @@
-const setup = () => {
-// deze code wordt pas uitgevoerd als de pagina volledig is ingeladen
-    let zin = "De man van An geeft geen hand aan ambetante verwanten";
-    zin.toLowerCase()
-    console.log(sequentie(zin));
-    console.log(alternatief(zin));
-}
-window.addEventListener("load", setup);
+    const setup = () => {
+    // deze code wordt pas uitgevoerd als de pagina volledig is ingeladen
+        let zin = "De man van An geeft geen hand aan ambetante verwanten";
+        zin.toLowerCase()
+        console.log(sequentie(zin));
+        console.log(alternatief(zin));
+    }
+    window.addEventListener("load", setup);
 
 const sequentie = (inputText) => {
     let tekst = inputText.indexOf("an");

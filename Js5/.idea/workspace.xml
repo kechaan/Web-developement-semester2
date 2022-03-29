@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67fc9e39-10a9-4602-ac31-e99f46de3291" name="Changes" comment="" />
+    <list default="true" id="f84874a5-8c1a-41ae-8a6a-426ecfe2c7d0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +18,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="25moadjFRM8LCxpnIetU9Ap7gbQ" />
+  <component name="ProjectId" id="26mYszJWP8TjlxpUdbecwJ8C5LT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Js4" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -40,27 +41,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="67fc9e39-10a9-4602-ac31-e99f46de3291" name="Changes" comment="" />
-      <created>1646141687746</created>
+      <changelist id="f84874a5-8c1a-41ae-8a6a-426ecfe2c7d0" name="Changes" comment="" />
+      <created>1648030438379</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1646141687746</updated>
-      <workItem from="1646141689760" duration="2689000" />
-      <workItem from="1646147705046" duration="885000" />
-      <workItem from="1646815547663" duration="7880000" />
-      <workItem from="1647365830661" duration="13557000" />
-      <workItem from="1647383596369" duration="281000" />
-      <workItem from="1647383915293" duration="1197000" />
-      <workItem from="1647385207009" duration="706000" />
-      <workItem from="1647400584556" duration="256000" />
-      <workItem from="1647419409810" duration="8721000" />
-      <workItem from="1647542363508" duration="1338000" />
-      <workItem from="1647715563744" duration="14073000" />
-      <workItem from="1647770176695" duration="418000" />
-      <workItem from="1648022877032" duration="1399000" />
-      <workItem from="1648502056238" duration="90000" />
-      <workItem from="1648536708307" duration="5882000" />
-      <workItem from="1648571868676" duration="13566000" />
+      <updated>1648030438379</updated>
+      <workItem from="1648030439580" duration="2475000" />
+      <workItem from="1648153741793" duration="599000" />
+      <workItem from="1648500521319" duration="4147000" />
     </task>
     <servers />
   </component>

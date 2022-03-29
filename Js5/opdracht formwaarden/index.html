@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>opdracht formwaarden</title>
+</head>
+<body>
+<form>
+    <div>
+        <label for="checkbox">Is roker</label>
+        <input id="checkbox" type="checkbox" name="isRoker">
+    </div>
+    <div>
+        <p>Moedertaal</p>
+        <input id="nederlands" type="radio" name="moedertaal" value="nl">
+        <label for="nederlands">Nederlands</label>
+        <input id="frans" type="radio" name="moedertaal" value="fr">
+        <label for="frans">Frans</label>
+        <input id="engels" type="radio" name="moedertaal" value="en">
+        <label for="engels">Engels</label>
+    </div>
+    <div>
+        <p><label for="buurland">Favoriete buurland</label></p>
+        <select id="buurland" name="buurlanden">
+            <option value="Frankrijk">Frankrijk</option>
+            <option value="Nederland">Nederland</option>
+            <option value="Duitsland">Duitsland</option>
+        </select>
+    </div>
+    <div>
+        <p><label for="bestelling">Bestelling</label></p>
+        <select id="bestelling" name="bestelling" multiple="multiple">
+            <option value="aardappelen">aardappelen</option>
+            <option value="brood">brood</option>
+            <option value="melk">melk</option>
+            <option value="biefstuk">biefstuk</option>
+            <option value="chips">chips</option>
+            <option value="krant">krant</option>
+        </select>
+    </div>
+    <div>
+        <p><label for="button"></label></p>
+        <input id="button" type="button" value="Toon resultaat">
+    </div>
+</form>
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</body>
+</html>
