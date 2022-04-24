@@ -1,0 +1,19 @@
+#playField{
+    position: relative;
+    height: 600px;
+    width: 800px;
+    border: solid black 1px;
+    box-sizing: border-box;
+}
+
+img{
+    position: absolute;
+}
+
+.hidden{
+    display: none;
+}
+
+p, #numberHits{
+    display: inline;
+}

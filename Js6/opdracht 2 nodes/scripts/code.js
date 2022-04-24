@@ -10,7 +10,7 @@ const setup = () => {
     element.setAttribute("src", "1.jpg" );
     element.setAttribute("style", "width:100px; margin-left:10px;")
 
-    document.body.appendChild(newElement);
+    document.body.appendChild(element);
 
 }
 window.addEventListener("load", setup);
