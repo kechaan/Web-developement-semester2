@@ -4,10 +4,6 @@ let global ={
     AANTAL_KAARTEN: 6
 };
 
-const setup = () => {
-
-}
-
 const kaartenLeggen = () => {
     var kaarten= []
     kaarten[0] = "kaart1.png";
@@ -49,34 +45,7 @@ const kaartenLeggen = () => {
         document.getElementById("speelveld")
     }
 }
-kaartenLeggen();
-const card0 = document.getElementById('deKaart0')
-card0.addEventListener("click", flipcard0);
-const card1 = document.getElementById('deKaart1')
-card1.addEventListener("click", flipcard1);
-const card2 = document.getElementById('deKaart2')
-card2.addEventListener("click", flipcard2);
-const card3 = document.getElementById('deKaart3')
-card3.addEventListener("click", flipcard3);
-const card4 = document.getElementById('deKaart4')
-card4.addEventListener("click", flipcard4);
-const card5 = document.getElementById('deKaart5')
-card5.addEventListener("click", flipcard5);
-const card6 = document.getElementById('deKaart6')
-card6.addEventListener("click", flipcard6);
-const card7 = document.getElementById('deKaart7')
-card7.addEventListener("click", flipcard7);
-const card8 = document.getElementById('deKaart8')
-card8.addEventListener("click", flipcard8);
-const card9 = document.getElementById('deKaart9')
-card9.addEventListener("click", flipcard9);
-const card10 = document.getElementById('deKaart10')
-card10.addEventListener("click", flipcard10);
-const card11 = document.getElementById('deKaart11')
-card11.addEventListener("click", flipcard11);
-var amount = 0;
-var gedraaideKaarten =[];
-var gedraaideKaartenlink =[];
+
 function flipcard0() {
     if(amount < 2&&(gedraaideKaartenlink[0]!==card0)){
     card0.classList.toggle("flipCard")
@@ -275,20 +244,32 @@ if(amount===2){
     }
 }
 }
-
-function sleep(milliseconds) {
-    const date = Date.now();
-    let currentDate = null;
-    do {
-        currentDate=Date.now();
-    }while(currentDate-date <milliseconds);
-}
-
-
-
-
-
-
-
-
-        window.addEventListener("load", setup);
+kaartenLeggen();
+const card0 = document.getElementById('deKaart0')
+card0.addEventListener("click", flipcard0);
+const card1 = document.getElementById('deKaart1')
+card1.addEventListener("click", flipcard1);
+const card2 = document.getElementById('deKaart2')
+card2.addEventListener("click", flipcard2);
+const card3 = document.getElementById('deKaart3')
+card3.addEventListener("click", flipcard3);
+const card4 = document.getElementById('deKaart4')
+card4.addEventListener("click", flipcard4);
+const card5 = document.getElementById('deKaart5')
+card5.addEventListener("click", flipcard5);
+const card6 = document.getElementById('deKaart6')
+card6.addEventListener("click", flipcard6);
+const card7 = document.getElementById('deKaart7')
+card7.addEventListener("click", flipcard7);
+const card8 = document.getElementById('deKaart8')
+card8.addEventListener("click", flipcard8);
+const card9 = document.getElementById('deKaart9')
+card9.addEventListener("click", flipcard9);
+const card10 = document.getElementById('deKaart10')
+card10.addEventListener("click", flipcard10);
+const card11 = document.getElementById('deKaart11')
+card11.addEventListener("click", flipcard11);
+var amount = 0;
+var gedraaideKaarten =[];
+var gedraaideKaartenlink =[];
+window.addEventListener("load", setup);
